@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margintop">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_title"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circle1"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@color/colorBack"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/btn1"
+                        style="@style/Button.Style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="ပဝ်ႇ  ပိူင်တႅၵ်ႈ  ၵႃ"
+                        android:textColor="#ffffff"
+                        android:textDirection="rtl"
+                        android:textSize="20sp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_title"
+                    android:padding="2dip">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circle1"
+                        android:gravity="center"
+                        android:text="-ႇ"
+                        android:textColor="@color/colorBack"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Button.Style"
+                        android:gravity="left"
+                        android:textDirection="rtl"
+                        android:typeface="monospace"
+                        android:text="ယၵ်း  ပိူင်တႅၵ်ႈ  ၵႃႇ"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"  />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_title"
+                    android:padding="2dip">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circle1"
+                        android:gravity="center"
+                        android:text="-ႈ"
+                        android:textColor="@color/colorBack"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Button.Style"
+                        android:gravity="left"
+                        android:textDirection="rtl"
+                        android:typeface="monospace"
+                        android:text="ယၵ်းၸမ်ႈ  ပိူင်တႅၵ်ႈ  ၵႃႈ"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"  />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_title"
+                    android:padding="2dip">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circle1"
+                        android:gravity="center"
+                        android:text="-း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Button.Style"
+                        android:gravity="left"
+                        android:textDirection="rtl"
+                        android:typeface="monospace"
+                        android:text="ၸမ်ႈၼႃႈ  ပိူင်တႅၵ်ႈ  ၵႃး"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"  />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_title"
+                    android:padding="2dip">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circle1"
+                        android:gravity="center"
+                        android:text="-ႉ"
+                        android:textColor="@color/colorBack"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/btn5"
+                        style="@style/Button.Style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textDirection="rtl"
+                        android:text="ၸမ်ႈတႂ်ႈ  ပိူင်တႅၵ်ႈ  ၵႃႉ"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_title"
+                    android:padding="2dip">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circle1"
+                        android:gravity="center"
+                        android:text="-ႊ"
+                        android:textColor="@color/colorBack"
+                        android:textSize="30dp" />
+                    <Button
+                        android:id="@+id/btn6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Button.Style"
+                        android:gravity="left"
+                        android:textDirection="rtl"
+                        android:typeface="monospace"
+                        android:text="ယၵ်ႈၶိုၼ်ႈ   ပိူင်တႅၵ်ႈ  ၵႃႊ"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"  />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

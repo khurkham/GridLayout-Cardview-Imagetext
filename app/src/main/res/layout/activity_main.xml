@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:rowCount="4"
+    android:columnCount="4">
+
+    <Button android:text="cardview"
+        android:id="@+id/botton1"
+        android:onClick="Click"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        />
+    <Button android:text=""
+
+        />
+    <Button android:text=""/>
+
+    <Button android:text="imagetext"
+        android:id="@+id/botton2"
+        android:onClick="Click1"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        />
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+    <Button android:text=""/>
+
+</GridLayout>

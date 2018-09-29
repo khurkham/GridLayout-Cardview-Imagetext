@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:paddingTop="70dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_height="match_parent"
+    tools:context="khurkham.com.android.learntailanguage.fragments.fragments.Help">
+
+    <TextView
+        android:id="@+id/tv"
+        android:textColor="#000"
+        android:typeface="monospace"
+        android:text="ပေႃးဝႃႈမီးလွင်ႈၶွင်ႉၶမ်ၼႂ်း App ၼႆႉ၊ \ၶႅၼ်းတေႃႈသူင်ႇၶေႃႈၵႂၢမ်းပၼ်ႁဝ်းတီႈၼႆႈ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:layout_marginBottom="74dp"
+        android:onClick="Send"
+        android:background="@drawable/sendbg"
+        android:src="@drawable/send"
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_below="@id/tv"
+        android:layout_above="@id/btnSend"
+        android:typeface="monospace"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editbg"
+        android:gravity="start"
+        android:hint="တႅမ်ႈသႂ်ႇၶေႃႈၵႂၢမ်းတီႈၼႆႈ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

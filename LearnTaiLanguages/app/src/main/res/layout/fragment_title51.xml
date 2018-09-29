@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margintop"
+    android:background="@color/colorBackground"
+    android:gravity="center_horizontal"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dip">
+                        <Button
+                            android:id="@+id/btn1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:text="ၵ"
+                            android:textColor="@color/colorBack"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:background="@drawable/circle"
+                            android:typeface="monospace"
+                            />
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dip"
+                            android:layout_weight="1"
+                            android:background="@color/colorBackground"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="#000000"
+                            android:textSize="40dp" />
+
+                        <Button
+                            android:id="@+id/btn2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/circle"
+                            android:gravity="center"
+                            android:text="ယ"
+                            android:textColor="@color/colorBack"
+                            android:textSize="25dp"
+                            android:typeface="monospace" />
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dip"
+                            android:layout_weight="1"
+                            android:background="@color/colorBackground"
+                            android:gravity="center"
+                            android:text="="
+                            android:textColor="#000"
+                            android:textSize="40dp" />
+
+                        <Button
+                            android:id="@+id/btn3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/circle"
+                            android:gravity="center"
+                            android:text="ၵျ"
+                            android:textColor="@color/colorBack"
+                            android:textSize="25dp"
+                            android:typeface="monospace"
+                            />
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dip">
+                        <Button
+                            android:id="@+id/btn4"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:text="ပ"
+                            android:textColor="@color/colorBack"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:background="@drawable/circle"
+                            android:typeface="monospace"
+                            />
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dip"
+                            android:layout_weight="1"
+                            android:background="@color/colorBackground"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="#000000"
+                            android:textSize="40dp" />
+
+                        <Button
+                            android:id="@+id/btn5"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/circle"
+                            android:gravity="center"
+                            android:text="ယ"
+                            android:textColor="@color/colorBack"
+                            android:textSize="25dp"
+                            android:typeface="monospace"
+                            />
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dip"
+                            android:layout_weight="1"
+                            android:background="@color/colorBackground"
+                            android:gravity="center"
+                            android:text="="
+                            android:textColor="#000"
+                            android:textSize="40dp" />
+
+                        <Button
+                            android:id="@+id/btn6"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/circle"
+                            android:gravity="center"
+                            android:text="ပျ"
+                            android:textColor="@color/colorBack"
+                            android:textSize="25dp"
+                            android:typeface="monospace" />
+
+                    </TableRow>
+
+
+                </TableLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

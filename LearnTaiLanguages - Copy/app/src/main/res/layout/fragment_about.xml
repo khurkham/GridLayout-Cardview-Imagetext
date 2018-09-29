@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margintop"
+   >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="2dip">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/logo" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView8"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/colorBack"
+                        android:gravity="fill_vertical"
+                        android:text="@string/title_about"
+                        android:textSize="20sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="monospace"/>
+                </TableRow>
+
+                <TextView />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/button_style"
+                        android:gravity="left"
+                        android:paddingStart="20dp"
+                        android:paddingTop="12dp"
+                        android:text="ၵဵပ်းႁွမ်တွမ်"
+                        android:textColor="#ffffff"
+                        android:typeface="monospace"
+                        android:textDirection="rtl"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:text="@string/information"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="30dp"
+                        android:gravity="left"
+                        android:textColor="@color/colorBack"
+                        android:textDirection="rtl"
+                        android:textSize="20sp"
+                        android:typeface="monospace"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/button_style"
+                        android:gravity="left"
+                        android:paddingStart="20dp"
+                        android:paddingTop="12dp"
+                        android:text="ၸၼ်ႁၢင်ႈတူဝ်လိၵ်ႈ"
+                        android:textColor="#ffffff"
+                        android:typeface="monospace"
+                        android:textDirection="rtl"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:text="ၸဝ်ႈသေႃးၽိတ (တႆးႁူိင်း) လႃႈသဵဝ်ႈ"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="30dp"
+                        android:gravity="left"
+                        android:textColor="@color/colorBack"
+                        android:textDirection="rtl"
+                        android:textSize="20sp"
+                        android:typeface="monospace"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/button_style"
+                        android:gravity="left"
+                        android:paddingStart="20dp"
+                        android:paddingTop="12dp"
+                        android:text="Development"
+                        android:textColor="#ffffff"
+                        android:typeface="monospace"
+                        android:textDirection="rtl"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dip">
+
+                    <TextView
+                        android:text="@string/development"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="30dp"
+                        android:gravity="left"
+                        android:textColor="@color/colorBack"
+                        android:textDirection="rtl"
+                        android:textSize="20sp"
+                        android:typeface="monospace"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

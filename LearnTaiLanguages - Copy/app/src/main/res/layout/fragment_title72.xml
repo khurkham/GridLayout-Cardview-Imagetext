@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margintop"
+    android:gravity="center_horizontal"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႑႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="10"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="ၼိုင်ႈသိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႑႑"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="11"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="သိပ်းဢဵတ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႒႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="20"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="ၼိုင်ႈသၢဝ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႓႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="30"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="သၢမ်သိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႔႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="40"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="သီႇသိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႕႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="50"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="ႁႃႈသိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႖႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="60"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="ႁူၵ်းသိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႗႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="70"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="ၸဵတ်းသိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႘႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="80"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="ပႅတ်ႇသိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="႙႐"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="90"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="ၵဝ်ႈသိပ်း"
+                        android:textColor="@color/colorBack"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
